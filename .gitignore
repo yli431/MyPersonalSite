@@ -1,0 +1,36 @@
+mysite/.env
+
+# dependencies
+mysite/node_modules
+mysite/.pnp
+mysite/.pnp.js
+
+# testing
+mysite/coverage
+
+# next.js
+mysite/.next/
+mysite/out/
+
+# production
+mysite/build
+
+# misc
+mysite/.DS_Store
+mysite/*.pem
+
+# debug
+mysite/npm-debug.log*
+mysite/yarn-debug.log*
+mysite/yarn-error.log*
+mysite/.pnpm-debug.log*
+
+# local env files
+#.env*.local
+
+# vercel
+mysite/.vercel
+
+# typescript
+mysite/*.tsbuildinfo
+# next-env.d.js

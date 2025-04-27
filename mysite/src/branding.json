@@ -1,0 +1,18 @@
+{
+  "brandName": "Yahan Liu",
+  "title": "Personal Website",
+  "company": {
+    "name": "Yahan Liu",
+    "url": "https://www.linkedin.com/in/yahan-liu-2491051b4",
+    "socialLink": {
+      "linkedin": "https://www.linkedin.com/in/yahan-liu-2491051b4",
+      "github": "https://github.com/yli431/MyPersonalSite"
+    }
+  },
+  "logo": {
+    "main": "",
+    "logoIcon": "",
+    "logoFab": "",
+    "logoWatermark": ""
+  }
+}
