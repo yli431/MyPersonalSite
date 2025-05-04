@@ -62,6 +62,32 @@ export default function Summary({ headLine, captionLine }) {
         }}
       ></Box>
       <ContainerWrapper sx={{ py: SECTION_COMMON_PY }}>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 1,
+            delay: 0.2,
+            ease: [0.215, 0.61, 0.355, 1]
+          }}
+        >
+          <Box display="flex" alignItems="center" justifyContent="center" mb={2}>
+            <Box
+              component="img"
+              src="/assets/images/profile-pic/me.jpg" 
+              alt="Profile"
+              sx={{
+                width: 160,
+                height: 160,
+                borderRadius: '50%',
+                objectFit: 'cover',
+                mr: 2,
+                border: '2px solid #ec407a',
+              }}
+            />
+          </Box>
+        </motion.div>
         <Box ref={containerRef}>
           <Box sx={{ pb: { xs: 3, sm: 4, md: 5 } }}>
             <Stack sx={{ alignItems: 'center', gap: 1.5 }}>
