@@ -19,11 +19,10 @@ import { motion } from 'framer-motion';
 
 // @project
 import ContainerWrapper from '@/components/ContainerWrapper';
+import CopyToClipboard from '@/components/CopyToClipboard';
+import Wave from '@/images/graphics/Wave';
 import { SECTION_COMMON_PY } from '@/utils/constant';
 import { getBackgroundDots } from '@/utils/getBackgroundDots';
-
-// @assets
-import Wave from '@/images/graphics/Wave';
 
 /***************************  HERO - 17  ***************************/
 
@@ -171,7 +170,21 @@ export default function Summary({ headLine, captionLine }) {
                   ))}
                 </Stack>
               </motion.div>
-                <Stack sx={{ alignItems: 'center', mt: { xs: 2, sm: 3 } }}>
+              <Stack sx={{ alignItems: 'center', mt: { xs: 2, sm: 3 }}}>
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    duration: 1,
+                    delay: 0.4,
+                    ease: [0.215, 0.61, 0.355, 1]
+                  }}
+                >
+                  <CopyToClipboard content='liuyahan0812@gmail.com' label='Email'></CopyToClipboard>
+                </motion.div>
+              </Stack>
+              <Stack sx={{ alignItems: 'center', mt: { xs: 2, sm: 3 } }}>
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
