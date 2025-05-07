@@ -9,19 +9,19 @@ export const experiences = {
       question: `University of Canterbury - Student`,
       answer: `Final year student studying Computer Science & Mathematics. This dual focus has sharpened my problem-solving mindset and deepened my understanding of systems and logic.`,
       category: 'General',
-      backgroundImage: '/images/experience-icons/UClogo-rectangle.jpeg'
+      image: '/assets/images/experience-icons/UClogo-rectangle.jpeg'
     },
     {
       question: `Ministry of Health COVID Healthline - Consultant`,
       answer: `Use Effective communication skills to advise clients on best practices for managing their COVID-related health issues; Draft reports, presentations, and other materials for senior management review.`,
       category: 'General',
-      backgroundImage: '/images/experience-icons/MOHNZ.jpeg'
+      image: '/assets/images/experience-icons/pngegg.png'
     },
     {
       question: `Harcourts - Personal Assistant`,
       answer: `Manage all listing & sold properties on Trademe, Homes.co.nz, Teamglobal websites, and assist marketing activities and mess media release.`,
       category: 'General',
-      backgroundImage: '/images/experience-icons/Harcourts.jpeg'
+      image: '/assets/images/experience-icons/Harcourts.jpeg'
     },
     {
       question: `2008 Olympic Games - Volunteer`,
@@ -36,7 +36,7 @@ export const experiences = {
       //   ]
       // },
       category: 'General',
-      backgroundImage: '/images/experience-icons/Olimpicos_Beijing_2008.jpg'
+      image: '/assets/images/experience-icons/Olimpicos_Beijing_2008.jpg'
     },
     {
       question: `What's included in the ${branding.brandName} license?`,
