@@ -10,7 +10,7 @@ export const summary = {
   ),
   captionLine: (
     <>
-      A Computer Science and Mathematics <Box component="span" sx={{ color: '#ec407a' }}>double major</Box> graduates
+      Computer Science and Mathematics <Box component="span" sx={{ color: '#ec407a' }}>double major</Box> graduates
     </>
   ),
   summary: (

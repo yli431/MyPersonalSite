@@ -6,11 +6,23 @@ export const experiences = {
   // defaultExpanded: 'Fees & Charges',
   faqList: [
     {
-      question: `University of Canterbury - Student`,
-      answer: `Final year student studying Computer Science & Mathematics. This dual focus has sharpened my problem-solving mindset and deepened my understanding of systems and logic.`,
+      question: `Health New Zealand Te Whatu Ora - Intern`,
+      answer: `Automated and standardized hospital security data pipelines, integrating multiple sources with scheduled refreshes, building dashboards for real-time monitoring, and implementing repeatable workflows—gaining hands-on experience in CI/CD, automation, and DevOps practices.`,
       category: 'General',
-      image: '/assets/images/experience-icons/UClogo-rectangle.jpeg'
+      image: '/assets/images/experience-icons/512px-Health_New_Zealand.svg.png'
     },
+    {
+      question: `Waffle Haus - Barista`,
+      answer: `Work as a Barista & Customer Service Assistant at multiple Waffle Haus locations in Christchurch, preparing and serving coffee, waffles, and beverages with consistent quality while maintaining hygiene standards. Deliver friendly, efficient service and handle transactions accurately in fast-paced, team-oriented environments, adapting seamlessly to different store settings.`,
+      category: 'General',
+      image: '/assets/images/experience-icons/logo-landscape-2.jpg'
+    },
+    // {
+    //   question: `University of Canterbury - Student`,
+    //   answer: `Final year student studying Computer Science & Mathematics. This dual focus has sharpened my problem-solving mindset and deepened my understanding of systems and logic.`,
+    //   category: 'General',
+    //   image: '/assets/images/experience-icons/UClogo-rectangle.jpeg'
+    // },
     {
       question: `Ministry of Health COVID Healthline - Consultant`,
       answer: `Use Effective communication skills to advise clients on best practices for managing their COVID-related health issues; Draft reports, presentations, and other materials for senior management review.`,
