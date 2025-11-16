@@ -196,7 +196,7 @@ export default function Summary({ headLine, captionLine }) {
                   }}
                 >
                   <Typography variant="body1" align="center" sx={{ maxWidth: 700, color: 'text.secondary' }}>
-                  I am a soon-to-graduate Computer Science and Mathematics student passionate about software development and problem-solving. With hands-on experience in C#, Java, Python, and TypeScript, I specialize in full-stack web development using ASP.Net, RESTful APIs, and relational databases. I thrive in collaborative environments, always eager to learn and develop scalable solutions that make a real-world impact.
+                  I am a recent graduate Computer Science and Mathematics student passionate about software development and problem-solving. With hands-on experience in C#, Java, Python, and TypeScript, I specialize in full-stack web development using ASP.Net, RESTful APIs, and relational databases. I thrive in collaborative environments, always eager to learn and develop scalable solutions that make a real-world impact.
                   </Typography>
                 </motion.div>
               </Stack>
