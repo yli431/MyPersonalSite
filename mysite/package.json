@@ -27,7 +27,7 @@
     "framer-motion": "12.6.5",
     "liuyahan-personal-site": "file:",
     "lodash-es": "4.17.21",
-    "next": "15.3.0",
+    "next": "15.3.8",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-hook-form": "7.55.0",
